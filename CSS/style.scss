@@ -17,6 +17,15 @@ nav{
         font-weight: 600 !important;
         color: #000;
     }
+    button{
+        background-color: #EFBA27;
+        padding: 5px 10px;
+        border: none;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
 }
 
 h1,
@@ -86,10 +95,13 @@ span{
         margin-bottom: 7px;
     }
     .sticky-form-box{
-        padding: 10px;
+      padding-top: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
         background-color: #EFBA27;
         position: sticky;
-        height: 300px;
+        height: 400px;
         top: 100px;
         width: 100%;
         input{
@@ -103,6 +115,17 @@ span{
             font-family: "Outfit", sans-serif !important;
             padding: 5px;
         }
+        h6{
+            color: #fff;
+            font-size: 28px;
+        }
+        button{
+            background-color: #fff;
+            padding: 3px 20px;
+            width: 100%;
+            text-transform: uppercase;
+            font-family: "Outfit", sans-serif !important;
+        }
     }
     
     .sec-title_heading{
@@ -111,5 +134,8 @@ span{
              
 }
 
+footer{
+    background: #56320A;
+}
 
  
