@@ -95,13 +95,13 @@ span{
         margin-bottom: 7px;
     }
     .sticky-form-box{
-      padding-top: 50px;
+      padding-top: 10px;
       padding-left: 10px;
       padding-right: 10px;
       padding-bottom: 10px;
         background-color: #EFBA27;
         position: sticky;
-        height: 400px;
+        height: auto;
         top: 100px;
         width: 100%;
         input{
@@ -117,7 +117,13 @@ span{
         }
         h6{
             color: #fff;
-            font-size: 28px;
+            font-size: 21px;
+            margin-bottom: 0px;
+        }
+        p{
+            color: #fff;
+            font-size: 15px;
+            margin-bottom: 0px;
         }
         button{
             background-color: #fff;
@@ -130,8 +136,7 @@ span{
     
     .sec-title_heading{
         color: #EFBA27;
-    }
-             
+    }        
 }
 
 footer{
